@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join Our Team | Nurturing Developing Minds LLC</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <!-- Hero Section -->
+  <section class="bg-white py-16">
+    <div class="container mx-auto px-6 text-center">
+      <h1 class="text-4xl font-bold mb-4">Careers at Nurturing Developing Minds LLC</h1>
+      <p class="text-lg mb-6">Join our mission to support infants and toddlers in a safe, nurturing environment. We're hiring passionate individuals ready to make a difference.</p>
+      <a href="#application-form" class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-6 rounded-lg transition">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- Why Work With Us -->
+  <section class="py-12">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-4 text-center">Why Work With Us</h2>
+      <div class="flex flex-col md:flex-row gap-8">
+        <div class="flex-1 bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-bold mb-2">Impactful Mission</h3>
+          <p>Be part of a team dedicated to whole-child development through play-based therapy and early intervention.</p>
+        </div>
+        <div class="flex-1 bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-bold mb-2">Professional Growth</h3>
+          <p>Access ongoing training, mentorship, and opportunities for career advancement in a supportive environment.</p>
+        </div>
+        <div class="flex-1 bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-bold mb-2">Flexible Hours</h3>
+          <p>We value work-life balance: choose schedules that fit your lifestyle, with office hours increasing from 8am–4pm to 6am–6pm.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Open Positions -->
+  <section class="bg-white py-12">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-6 text-center">Open Positions</h2>
+      <ul class="space-y-4 max-w-2xl mx-auto">
+        <li class="p-4 border rounded-lg hover:shadow">
+          <h3 class="text-xl font-bold">Developmental Therapist</h3>
+          <p class="mt-1">Full-time | Flossmoor, IL</p>
+        </li>
+        <li class="p-4 border rounded-lg hover:shadow">
+          <h3 class="text-xl font-bold">Speech-Language Pathologist</h3>
+          <p class="mt-1">Part-time | Remote Telehealth</p>
+        </li>
+        <li class="p-4 border rounded-lg hover:shadow">
+          <h3 class="text-xl font-bold">Occupational Therapy Assistant (Future Opening)</h3>
+          <p class="mt-1">Coming Soon</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Application Form -->
+  <section id="application-form" class="py-16">
+    <div class="container mx-auto px-6 max-w-xl">
+      <h2 class="text-3xl font-semibold mb-4 text-center">Apply Now</h2>
+      <form action="#" method="POST" class="space-y-6">
+        <div>
+          <label for="fullName" class="block text-sm font-medium mb-1">Full Name</label>
+          <input type="text" id="fullName" name="fullName" required class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-400" />
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium mb-1">Email Address</label>
+          <input type="email" id="email" name="email" required class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-400" />
+        </div>
+        <div>
+          <label for="qualification" class="block text-sm font-medium mb-1">Preferred Qualification</label>
+          <select id="qualification" name="qualification" class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-400">
+            <option>Recent College Graduate (All Majors)</option>
+            <option>Experienced Therapist</option>
+            <option>Student Intern</option>
+          </select>
+        </div>
+        <div>
+          <label for="resume" class="block text-sm font-medium mb-1">Resume/CV (PDF)</label>
+          <input type="file" id="resume" name="resume" accept="application/pdf" required class="w-full" />
+        </div>
+        <div>
+          <label for="coverLetter" class="block text-sm font-medium mb-1">Cover Letter</label>
+          <textarea id="coverLetter" name="coverLetter" rows="4" required class="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-400"></textarea>
+        </div>
+        <button type="submit" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 rounded-lg transition">Submit Application</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 py-6">
+    <div class="container mx-auto px-6 text-center text-sm text-gray-600">
+      <p>&copy; 2025 Nurturing Developing Minds LLC. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
